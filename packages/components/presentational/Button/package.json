@@ -1,0 +1,11 @@
+{
+  "name": "@vam/button",
+  "version": "0.0.1",
+  "description": "Button",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VaibhavShringarpure",
+  "license": "MIT"
+}

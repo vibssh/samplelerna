@@ -1,8 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
+import Button from '../packages/components/presentational/Button';
 import './App.css';
 
 function App() {
+  const btnProps = {
+    className: 'new-class',
+    clickHandler: () => console.log('Hllo Bttn')
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +23,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Button {...btnProps}>Hello Button</Button>
       </header>
     </div>
   );
